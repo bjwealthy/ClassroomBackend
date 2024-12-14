@@ -4,7 +4,9 @@ import { teacherRouter } from './Routes/TeacherRoute.js';
 import { studentRouter } from './Routes/StudentRoute.js';
 import cookieParser from 'cookie-parser';
 
-const app = express()
+
+const app = express();
+
 app.use(cors({
     origin: ['http://localhost:5173'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
