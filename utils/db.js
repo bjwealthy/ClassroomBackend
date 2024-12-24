@@ -2,10 +2,17 @@
 import mysql from 'mysql';
 
 const con = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'studentms'
+    // host: 'localhost',
+    // user: 'root',
+    // password: '',
+    // database: 'studentms'
+
+    host: 'sql8.freemysqlhosting.net',
+    user: 'sql8753965',
+    password: 'dhdKH9IB98',
+    //database: 'studentms',
+    database: 'sql8753965',
+    port: '3306',
 })
 
 con.connect(function(err){
