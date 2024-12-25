@@ -20,7 +20,7 @@ con.connect(function(err){
         console.log('db wahala dey')
         return;
     }else{
-        console.log('server connected to mysql db')
+        console.log('server connected to mysql db and doing fine')
     }
 })
 
